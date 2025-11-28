@@ -93,11 +93,13 @@ cp .env.example .env
 # Build and start all services
 docker-compose up -d --build
 
-4. Access the Application
+# Access the Application
 API Server: http://localhost:3001
 
+#
 Swagger Documentation: http://localhost:3001/api
 
+#
 Health Check: http://localhost:3001/health
 
 ## Stay in touch
